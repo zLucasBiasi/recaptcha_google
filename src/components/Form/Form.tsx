@@ -4,11 +4,11 @@ import ReCAPTCHA from "react-google-recaptcha";
 import * as S from "./styles";
 
 export const Form = () => {
-  const handleRecaptchaChange = (value) => {
+  const handleRecaptchaChange = (value: any) => {
     console.log("Captcha value:", value);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
   };
 
