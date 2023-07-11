@@ -32,7 +32,7 @@ export const Form = () => {
           />
 
           <ReCAPTCHA
-            sitekey="6LePWREnAAAAACU4FyZwoKKMRZbIEJ0di4hs1Qiw"
+            sitekey="6LfTjRInAAAAAK6-m1Y6MP3Nu4Sfjb_ipnZQrnyD"
             onChange={handleRecaptchaChange}
           />
 
